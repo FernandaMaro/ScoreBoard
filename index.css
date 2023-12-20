@@ -1,24 +1,45 @@
 body {
     margin: 0;
-    background: url(https://64.media.tumblr.com/07a310beeb4e4c7c54e535710e966fb0/tumblr_mu9dnxPrNZ1rykvvgo1_500.jpg);
-    background-size:cover; 
-    height: 100vh;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #1B244A;
 }
-
+h3{
+width: 149px; 
+left: 85px; 
+top: 68px;
+color: #EEEEEE;
+font-size: 40px;
+font-weight: 700;
+line-height: 35.89px;
+word-wrap: break-word;
+}
+h2{
+color: #F94F6D;
+ font-size: 90px;
+ font-weight: 700;
+ justify-content: center;
+}
+.rectangle{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+}
+button{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px #9AABD8 solid;
+    color: #9AABD8;
+    background-color: #1B244A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;   
+}
 .container {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: antiquewhite;
-    
 }
-button{
-    color:antiquewhite ; 
-    background-color: cornflowerblue;
-    outline: none;
-    border-radius: 30px;
-    border: none;
-    text-align: center;
-}
+
